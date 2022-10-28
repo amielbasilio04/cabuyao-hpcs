@@ -1,0 +1,133 @@
+html {
+    --scrollbarBG: #d2dccf;
+    --thumbBG: #90a4ae;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main Colors (BG / TXT Color) */
+.bg_green {
+    /* background: #00b894 !important; */
+    background: #5db75a !important;
+}
+.bg_light_green {
+    /* background: #f1c40f !important; */
+    background: #187c23 !important;
+}
+.bg_navy_blue {
+    /* background: #f53b57 !important; */
+    background: #064a75 !important;
+}
+
+.txt_green {
+    color: #00b894 !important;
+}
+.txt_light_green {
+    color: #55efc4 !important;
+}
+.txt_navy_blue {
+    color: #064a75 !important;
+}
+
+.btn_green {
+    background: #5db75a !important;
+    color: #fff;
+}
+.btn_light_green {
+    background: #187c23 !important;
+    color: #fff;
+}
+.btn_navy_blue {
+    background: #064a75 !important;
+    color: #fff;
+}
+.btn_navy_blue:hover {
+    color: rgb(255, 249, 249);
+}
+
+.btn-outline-green {
+    color: #5db75a !important;
+    border-color: #5db75a !important;
+}
+.btn-outline-green:hover {
+    background: #5db75a !important;
+    color: #fff !important;
+}
+
+.btn-outline-light-green {
+    color: #187c23 !important;
+    border-color: #187c23 !important;
+}
+.btn-outline-light-green:hover {
+    background: #187c23 !important;
+    color: #fff !important;
+}
+
+.btn-outline-navy-blue {
+    color: #064a75 !important;
+    border-color: #064a75 !important;
+}
+.btn-outline-red:hover {
+    background: #064a75 !important;
+    color: #fff !important;
+}
+
+/* Custom */
+#schedule:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.filepond--credits {
+    display: none !important;
+}
+
+.comment_body > p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+/* Boostrap paginator*/
+
+.page-item.active .page-link {
+    background: #00b894 !important;
+    border-color: #00b894 !important;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+/* scroll to top */
+
+.btn-fab {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    position: fixed;
+    bottom: 64px;
+    right: 64px;
+    border-radius: 50%;
+    color: white;
+    background-color: #28272b;
+    cursor: pointer;
+    display: none;
+}
