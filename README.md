@@ -11,6 +11,4 @@ An online clustering system for the City of Cabuyao.
 *   php artisan migrate:fresh --seed
 *   php artisan serve
 
-## License & Copyright
 
-© Ace Manalo , Web Developer
