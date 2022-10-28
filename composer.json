@@ -23,7 +23,8 @@
         "spatie/laravel-activitylog": "^4.2",
         "spatie/laravel-medialibrary": "^9.0.0",
         "tightenco/ziggy": "^1.2",
-        "yajra/laravel-datatables": "^1.5"
+        "yajra/laravel-datatables": "^1.5",
+		
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -31,7 +32,8 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
+        "phpunit/phpunit": "^9.3.3",
+		"heroku/heroku-buildpack-php": "*"
     },
     "autoload": {
         "psr-4": {
